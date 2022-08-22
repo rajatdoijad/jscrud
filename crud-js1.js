@@ -32,8 +32,8 @@ function insertNewRecord(data) {
     cell3.innerHTML = data.contact;
     cell4 = newRow.insertCell(3);
     cell4.innerHTML = data.city;
-    cell4 = newRow.insertCell(4);
-    cell4.innerHTML = `<a onClick="onEdit(this)">Edit</a>
+    cell5 = newRow.insertCell(4);
+    cell5.innerHTML = `<a onClick="onEdit(this)">Edit</a>
                        <a onClick="onDelete(this)">Delete</a>`;
 }
 
